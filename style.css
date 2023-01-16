@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background: rgba(236, 212, 135, 0.801);
+  }
+  h1{
+    top: 25px;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h4{ 
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 190px;
+  }
+  
+  .conteiner{
+    position: relative;
+    text-align: center;
+    background: rgba(189, 43, 43, 0);
+    width: 400px;
+    height: 400px;
+    margin: auto;}
+  
+  button{
+    width: 45px;
+    height: 20px;
+    position: relative;
+    top: 220px;
+    background:rgba(236, 212, 135, 0.801);
+    color: rgba(0, 0, 0, 0.801);
+    border-radius: 5px;
+  }
+  
+  .pausado{
+    color:red
+  }
+  
+  .img{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    left: 0;
+    width: 400px;
+    height: 400px;
+  }
